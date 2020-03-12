@@ -1,0 +1,140 @@
+[  1253.880] (--) Log file renamed from "/var/log/Xorg.pid-2846.log" to "/var/log/Xorg.0.log"
+[  1253.880] 
+X.Org X Server 1.20.7
+X Protocol Version 11, Revision 0
+[  1253.880] Build Operating System: Linux Arch Linux
+[  1253.880] Current Operating System: Linux Garuda 5.5.8-arch1-1 #1 SMP PREEMPT Fri, 06 Mar 2020 00:57:33 +0000 x86_64
+[  1253.880] Kernel command line: BOOT_IMAGE=/vmlinuz-linux root=UUID=cfe1ec4f-9f40-4f7c-b166-5feabc3d5359 rw cryptdevice=/dev/sda2:root audit=0 loglevel=3 nox2apic splash
+[  1253.880] Build Date: 14 January 2020  07:13:52AM
+[  1253.880]  
+[  1253.880] Current version of pixman: 0.38.4
+[  1253.880] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[  1253.880] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[  1253.880] (==) Log file: "/var/log/Xorg.0.log", Time: Wed Mar 11 17:47:05 2020
+[  1253.880] (==) Using config file: "/etc/X11/xorg.conf"
+[  1253.880] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[  1253.881] (==) ServerLayout "layout"
+[  1253.881] (**) |-->Screen "Screen0" (0)
+[  1253.881] (**) |   |-->Monitor "Monitor0"
+[  1253.881] (==) No device specified for screen "Screen0".
+	Using the first device section listed.
+[  1253.881] (**) |   |-->Device "Nvidia Card"
+[  1253.881] (==) Automatically adding devices
+[  1253.881] (==) Automatically enabling devices
+[  1253.881] (==) Automatically adding GPU devices
+[  1253.881] (==) Automatically binding GPU devices
+[  1253.881] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[  1253.881] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[  1253.881] 	Entry deleted from font path.
+[  1253.881] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[  1253.881] 	Entry deleted from font path.
+[  1253.881] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[  1253.881] 	Entry deleted from font path.
+[  1253.881] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[  1253.881] 	Entry deleted from font path.
+[  1253.881] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[  1253.881] 	Entry deleted from font path.
+[  1253.881] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[  1253.881] 	Entry deleted from font path.
+[  1253.881] (**) FontPath set to:
+	/usr/share/fonts/misc,
+	/usr/share/fonts/TTF,
+	/usr/share/fonts/OTF,
+	/usr/share/fonts/misc,
+	/usr/share/fonts/TTF,
+	/usr/share/fonts/OTF
+[  1253.881] (**) ModulePath set to "/usr/lib/xorg/modules"
+[  1253.881] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[  1253.881] (II) Module ABI versions:
+[  1253.881] 	X.Org ANSI C Emulation: 0.4
+[  1253.881] 	X.Org Video Driver: 24.1
+[  1253.881] 	X.Org XInput driver : 24.1
+[  1253.881] 	X.Org Server Extension : 10.0
+[  1253.882] (++) using VT number 1
+
+[  1253.882] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[  1253.883] (II) xfree86: Adding drm device (/dev/dri/card0)
+[  1253.894] (--) PCI:*(0@0:2:0) 8086:0416:17aa:221e rev 6, Mem @ 0xb1400000/4194304, 0xa0000000/268435456, I/O @ 0x00005000/64, BIOS @ 0x????????/131072
+[  1253.894] (--) PCI: (1@0:0:0) 10de:11fc:17aa:221e rev 161, Mem @ 0xb0000000/16777216, 0x80000000/268435456, 0x90000000/33554432, I/O @ 0x00004000/128, BIOS @ 0x????????/524288
+[  1253.894] (II) Open ACPI successful (/var/run/acpid.socket)
+[  1253.894] (II) "glx" will be loaded. This was enabled by default and also specified in the config file.
+[  1253.894] (II) LoadModule: "glx"
+[  1253.894] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[  1253.895] (II) Module glx: vendor="X.Org Foundation"
+[  1253.895] 	compiled for 1.20.7, module version = 1.0.0
+[  1253.895] 	ABI class: X.Org Server Extension, version 10.0
+[  1253.895] (II) LoadModule: "nvidia"
+[  1253.895] (II) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[  1253.896] (II) Module nvidia: vendor="NVIDIA Corporation"
+[  1253.896] 	compiled for 1.6.99.901, module version = 1.0.0
+[  1253.896] 	Module class: X.Org Video Driver
+[  1253.896] (II) NVIDIA dlloader X Driver  440.64  Fri Feb 21 00:49:33 UTC 2020
+[  1253.896] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[  1253.918] (II) Loading sub module "fb"
+[  1253.918] (II) LoadModule: "fb"
+[  1253.918] (II) Loading /usr/lib/xorg/modules/libfb.so
+[  1253.918] (II) Module fb: vendor="X.Org Foundation"
+[  1253.918] 	compiled for 1.20.7, module version = 1.0.0
+[  1253.918] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[  1253.918] (II) Loading sub module "wfb"
+[  1253.918] (II) LoadModule: "wfb"
+[  1253.918] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[  1253.918] (II) Module wfb: vendor="X.Org Foundation"
+[  1253.918] 	compiled for 1.20.7, module version = 1.0.0
+[  1253.918] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[  1253.918] (II) Loading sub module "ramdac"
+[  1253.918] (II) LoadModule: "ramdac"
+[  1253.918] (II) Module "ramdac" already built-in
+[  1253.919] (==) NVIDIA(0): Depth 24, (==) framebuffer bpp 32
+[  1253.919] (==) NVIDIA(0): RGB weight 888
+[  1253.919] (==) NVIDIA(0): Default visual is TrueColor
+[  1253.919] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[  1253.919] (**) Option "AllowNVIDIAGpuScreens"
+[  1253.919] (**) NVIDIA(0): Enabling 2D acceleration
+[  1253.919] (II) Loading sub module "glxserver_nvidia"
+[  1253.919] (II) LoadModule: "glxserver_nvidia"
+[  1253.919] (WW) Warning, couldn't open module glxserver_nvidia
+[  1253.919] (EE) NVIDIA: Failed to load module "glxserver_nvidia" (module does not exist, 0)
+[  1253.919] (EE) NVIDIA(0): Failed to initialize the GLX module; please check in your X
+[  1253.919] (EE) NVIDIA(0):     log file that the GLX module has been loaded in your X
+[  1253.919] (EE) NVIDIA(0):     server, and that the module is the NVIDIA GLX module.  If
+[  1253.919] (EE) NVIDIA(0):     you continue to encounter problems, Please try
+[  1253.919] (EE) NVIDIA(0):     reinstalling the NVIDIA driver.
+[  1253.919] (II) NVIDIA: The X server does not support PRIME Render Offload.
+[  1253.920] (--) NVIDIA(0): Valid display device(s) on GPU-0 at PCI:1:0:0
+[  1253.920] (--) NVIDIA(0):     DFP-0
+[  1253.920] (--) NVIDIA(0):     DFP-1
+[  1253.939] (II) NVIDIA(0): NVIDIA GPU Quadro K2100M (GK106GL) at PCI:1:0:0 (GPU-0)
+[  1253.939] (--) NVIDIA(0): Memory: 2097152 kBytes
+[  1253.939] (--) NVIDIA(0): VideoBIOS: 80.06.63.00.1a
+[  1253.939] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[  1253.939] (--) NVIDIA(GPU-0): DFP-0: disconnected
+[  1253.939] (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+[  1253.939] (--) NVIDIA(GPU-0): DFP-0: 165.0 MHz maximum pixel clock
+[  1253.939] (--) NVIDIA(GPU-0): 
+[  1253.939] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[  1253.939] (--) NVIDIA(GPU-0): DFP-1: Internal DisplayPort
+[  1253.939] (--) NVIDIA(GPU-0): DFP-1: 960.0 MHz maximum pixel clock
+[  1253.939] (--) NVIDIA(GPU-0): 
+[  1253.940] (EE) NVIDIA(0): Failed to assign any connected display devices to X screen 0. 
+[  1253.940] (EE) NVIDIA(0):     Set AllowEmptyInitialConfiguration if you want the server
+[  1253.940] (EE) NVIDIA(0):     to start anyway
+[  1253.940] (EE) NVIDIA(0): Failing initialization of X screen
+[  1253.958] (II) UnloadModule: "nvidia"
+[  1253.958] (II) UnloadSubModule: "wfb"
+[  1253.958] (II) UnloadSubModule: "fb"
+[  1253.958] (EE) Screen(s) found, but none have a usable configuration.
+[  1253.958] (EE) 
+Fatal server error:
+[  1253.958] (EE) no screens found(EE) 
+[  1253.958] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[  1253.958] (EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+[  1253.958] (EE) 
+[  1254.045] (EE) Server terminated with error (1). Closing log file.
